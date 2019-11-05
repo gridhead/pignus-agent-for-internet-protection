@@ -44,3 +44,6 @@ def main(url):
         for i in reply:
             print(i)
     return reply
+
+if __name__=="__main__":
+    print(main("t0xic0der.netlify.com"))

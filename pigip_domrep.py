@@ -98,4 +98,4 @@ def main(url):
     return reply
 
 if __name__=="__main__":
-    main("netlify.com")
+    print(main("t0xic0der.netlify.com"))

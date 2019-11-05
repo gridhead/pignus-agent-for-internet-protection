@@ -41,6 +41,24 @@ class MainApp(QMainWindow,ui):
 
     def queueUrlScanning(self):
         scannable=self.urlsca_box.text()
+        self.urlsca_scadat_res.clear()
+        self.urlsca_scarsc_res.clear()
+        self.urlsca_scanid_res.clear()
+        self.urlsca_scaper_res.clear()
+        start_time = time.time()
+        reply = pigip_urlsca.main(scannable)
+        end_time = time.time()
+        total_time = str((end_time - start_time) / 60)
+        time_array = total_time.split(".")
+        total_time = time_array[0] + "." + time_array[1][0:2]
+        self.urlsca_scadat_res.setText(reply[3])
+        self.urlsca_scarsc_res.setText(reply[2])
+        self.urlsca_scanid_res.setText(reply[4])
+        self.urlsca_scaper_res.setText(reply[1])
+        self.urlsca_apires_res.setText(reply[0])
+        self.urlsca_scares_res.setText(reply[5])
+        self.contri.setText("Result fetched in " + total_time + " minutes")
+        '''
         try:
             self.urlsca_scadat_res.clear()
             self.urlsca_scarsc_res.clear()
@@ -71,6 +89,7 @@ class MainApp(QMainWindow,ui):
             self.urlsca_scanid_res.clear()
             self.urlsca_scaper_res.clear()
             warn = QMessageBox.warning(self, urnf_title, urnf_mesge, QMessageBox.Ok)
+        '''
 
     def retriveUrlReport(self):
         scannable=self.urlrep_box.text()

@@ -28,3 +28,6 @@ def main(url):
         verbmesg=str(response["results"]["verbose_msg"])
         reply=[respcode,permlink,resource,scandate,scanidty,verbmesg]
     return reply
+
+if __name__=="__main__":
+    print(main("t0xic0der.netlify.com"))
