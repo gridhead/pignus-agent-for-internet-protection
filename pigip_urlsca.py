@@ -7,10 +7,10 @@ def fetchapikey():
     return apikey
 
 def main(url):
-    apikey=fetchapikey()
-    vt=VirusTotalPublicApi(apikey)
+    apikey = fetchapikey()
+    vt = VirusTotalPublicApi(apikey)
     response = vt.scan_url(url)
-    reply=[]
+    reply = []
     if "error" in response.keys():
         respcode="0x01"
         permlink="Report permalink could not be fetched due to an error"
@@ -30,4 +30,4 @@ def main(url):
     return reply
 
 if __name__=="__main__":
-    print(main("t0xic0der.netlify.com"))
+    print(main("amazon.ru"))

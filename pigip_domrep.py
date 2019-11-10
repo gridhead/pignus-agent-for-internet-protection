@@ -84,16 +84,6 @@ def main(url):
         resolute=getresolute(response)
         scandate=str(time.ctime(int(time.time())))
         verbmesg=response["results"]["verbose_msg"]
-        print("\n")
-        print(apiresco)
-        print(whoisres)
-        print(subdomsi)
-        print(resolute)
-        print(whotulst)
-        print(whoitime)
-        print(dnsrecdt)
-        print(scandate)
-        print(verbmesg)
         reply=[apiresco,whoisres,subdomsi,resolute,whotulst,whoitime,dnsrecdt,scandate,verbmesg]
     return reply
 
