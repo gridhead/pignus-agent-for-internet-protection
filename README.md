@@ -67,6 +67,20 @@ A Python GUI application for scanning URLs and domains for safety
 ### v0.06 (Oncoming)
 _To be decided_
 
+## Screenshots
+* Queue URL scanning (Basic layout, v0.05 onwards)
+![Queue URL scanning (Basic layout, v0.05 onwards)](pigip_urlsca.png)
+* Queue URL scanning (Results from `t0xic0der.netlify.com`, v0.05 onwards)
+![Queue URL scanning (Results from `t0xic0der.netlify.com`, v0.05 onwards)](reprt_urlsca.png)
+* Get URL report (Basic layout, v0.05 onwards)
+![Get URL report (Basic layout, v0.05 onwards)](pigip_urlrep.png)
+* Get URL report (Results from `t0xic0der.netlify.com`, v0.05 onwards)
+![Get URL report (Results from `t0xic0der.netlify.com`, v0.05 onwards)](reprt_urlrep.png)
+* Get domain report (Basic layout, v0.05 onwards)
+![Get domain report (Basic layout, v0.05 onwards)](pigip_domrep.png)
+* Get domain report (Results from `t0xic0der.netlify.com`, v0.05 onwards)
+![Get domain report (Results from `t0xic0der.netlify.com`, v0.05 onwards)](reprt_domrep.png)
+
 ## Bugs
 1. Some domains cannot be scanned due to ISP blockage or denial from the API provider.
 2. Populating tables with data might take some time on single-core PCs.
