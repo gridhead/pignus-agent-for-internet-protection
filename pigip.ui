@@ -99,7 +99,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Roboto Light</family>
+      <family>Roboto</family>
      </font>
     </property>
     <property name="styleSheet">
@@ -107,7 +107,7 @@
 color:rgba(255,255,255,1);</string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="tab_usc">
      <attribute name="title">
@@ -170,7 +170,7 @@ border-radius:15px;</string>
       </property>
       <property name="font">
        <font>
-        <family>Roboto Light</family>
+        <family>Roboto</family>
        </font>
       </property>
       <property name="styleSheet">
