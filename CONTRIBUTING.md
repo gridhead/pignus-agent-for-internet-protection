@@ -31,7 +31,7 @@ Note : Your PR will only be approved if you are assigned to that issue. Also, ev
 
 - Fork this Repository. This will create a Local Copy of this Repository on your Github Profile. 
 ```
-$ git clone https://github.com/<your-username>/code-n-stitch
+$ git clone https://github.com/<your-username>/pignus-agent-for-internet-protection
 ```
 
 Now, let's add a reference to the original [Repository](https://github.com/t0xic0der/pignus-agent-for-internet-protection) repository using
