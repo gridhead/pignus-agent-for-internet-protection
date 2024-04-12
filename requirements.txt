@@ -1,6 +1,6 @@
 certifi==2023.7.22
 chardet==3.0.4
-idna==2.8
+idna==3.7
 PyQt5==5.12.2
 PyQt5-sip==4.19.17
 requests==2.31.0
